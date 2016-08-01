@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pest_disease: MyString
+  effectiveness: MyString
+  dose: 1.5
+  units_per_hectare: 1.5
+  price_per_unit: 1.5
+  provider_id: 
+  registered_supply_id: 
+  phytosanitary_treatment_id: 
+
+two:
+  pest_disease: MyString
+  effectiveness: MyString
+  dose: 1.5
+  units_per_hectare: 1.5
+  price_per_unit: 1.5
+  provider_id: 
+  registered_supply_id: 
+  phytosanitary_treatment_id: 
