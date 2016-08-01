@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  variety: MyString
+  quality: MyString
+  quantity: 1.5
+  area: 1.5
+  own_storage: false
+  parcel_id: 
+  campaign: 2016-08-01
+  crop_id: 
+
+two:
+  variety: MyString
+  quality: MyString
+  quantity: 1.5
+  area: 1.5
+  own_storage: false
+  parcel_id: 
+  campaign: 2016-08-01
+  crop_id: 
