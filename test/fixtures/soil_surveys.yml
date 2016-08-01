@@ -1,0 +1,39 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  organic_carbon: 1.5
+  organic_material: 1.5
+  total_nitrogen: 1.5
+  nitrate: 1.5
+  nitrate_nitrogens: 1.5
+  comparable_fosforo: 1.5
+  calcium: 1.5
+  magnesium: 1.5
+  ph: 1.5
+  carbon_nitrogen: 1.5
+  calcium_magnesium: 1.5
+  conductivity: 1.5
+  sulfur: 1.5
+  hardness_of_water: 1.5
+  water_ph: 1.5
+  parcel_id: 
+  provider_id: 
+
+two:
+  organic_carbon: 1.5
+  organic_material: 1.5
+  total_nitrogen: 1.5
+  nitrate: 1.5
+  nitrate_nitrogens: 1.5
+  comparable_fosforo: 1.5
+  calcium: 1.5
+  magnesium: 1.5
+  ph: 1.5
+  carbon_nitrogen: 1.5
+  calcium_magnesium: 1.5
+  conductivity: 1.5
+  sulfur: 1.5
+  hardness_of_water: 1.5
+  water_ph: 1.5
+  parcel_id: 
+  provider_id: 
