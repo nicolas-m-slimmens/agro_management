@@ -55,6 +55,8 @@ gem 'jquery-datatables-rails', :git => 'https://github.com/rweng/jquery-datatabl
 gem 'bootstrap-growl-rails'
 gem 'faye'
 gem 'thin'
+gem 'jquery_context_menu-rails'
+gem 'declarative_authorization', :git => 'https://github.com/stffn/declarative_authorization.git'
 
 group :development do
   gem 'better_errors'
