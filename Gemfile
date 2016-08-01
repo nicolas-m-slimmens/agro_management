@@ -50,6 +50,11 @@ gem 'google-analytics-rails'
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'tzinfo-data'
 gem 'validates_formatting_of'
+gem 'private_pub'
+gem 'jquery-datatables-rails', :git => 'https://github.com/rweng/jquery-datatables-rails.git'
+gem 'bootstrap-growl-rails'
+gem 'faye'
+gem 'thin'
 
 group :development do
   gem 'better_errors'
