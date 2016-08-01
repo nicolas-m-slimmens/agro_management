@@ -1,4 +1,5 @@
 ActiveAdmin.register LaborPerformed do
+  permit_params :campaign, :price, :done_at, :observations
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
