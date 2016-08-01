@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  address: MyString
+  locality: MyString
+  province: MyString
+  country: MyString
+  area: 1.5
+  own: false
+  observations: MyText
+  owner_contact: 1
+  manager_contact: 1
+
+two:
+  name: MyString
+  address: MyString
+  locality: MyString
+  province: MyString
+  country: MyString
+  area: 1.5
+  own: false
+  observations: MyText
+  owner_contact: 1
+  manager_contact: 1
