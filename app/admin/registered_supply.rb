@@ -1,4 +1,5 @@
 ActiveAdmin.register RegisteredSupply do
+  permit_params :name, :type, :unit, :observations
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
