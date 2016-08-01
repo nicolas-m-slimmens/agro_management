@@ -8,7 +8,7 @@ class CreateAppliedPhytosanitaryProducts < ActiveRecord::Migration
       t.float :price_per_unit
       t.references :provider, index: true
       t.references :registered_supply, index: true
-      t.references :phytosanitary_treatment, index: true
+      t.references :phytosanitary_treatment, index: true, :name => 'applied_phytosanitary_treatment_id'
 
       t.timestamps
     end
