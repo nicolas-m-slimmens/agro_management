@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  applied_at: 2016-08-01
+  affected_area: 1.5
+  observations: MyText
+  parcel_id: 
+  campaign: 2016-08-01
+
+two:
+  applied_at: 2016-08-01
+  affected_area: 1.5
+  observations: MyText
+  parcel_id: 
+  campaign: 2016-08-01
