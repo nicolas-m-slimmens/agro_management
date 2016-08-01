@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  registered_labor_id: 
+  provider_id: 
+  price: 1.5
+
+two:
+  registered_labor_id: 
+  provider_id: 
+  price: 1.5
