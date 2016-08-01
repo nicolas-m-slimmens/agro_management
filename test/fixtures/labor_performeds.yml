@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  parcel_id: 
+  campaign: 2016-08-01
+  registered_labor_id: 
+  provider_id: 
+  price: 1.5
+  done_at: 2016-08-01
+  observations: MyText
+
+two:
+  parcel_id: 
+  campaign: 2016-08-01
+  registered_labor_id: 
+  provider_id: 
+  price: 1.5
+  done_at: 2016-08-01
+  observations: MyText
