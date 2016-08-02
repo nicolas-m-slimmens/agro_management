@@ -38,6 +38,12 @@ GIT
       railties (>= 3.1)
       sass-rails
 
+GIT
+  remote: https://github.com/stffn/declarative_authorization.git
+  revision: 45e91af20eba71b2828c5c84066bcce3ef032e8a
+  specs:
+    declarative_authorization (1.0.0.pre)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -146,6 +152,8 @@ GEM
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (5.0.5)
       railties (>= 3.2.16)
+    jquery_context_menu-rails (0.0.4)
+      jquery-rails
     json (1.8.3)
     jwt (1.5.4)
     kaminari (0.17.0)
@@ -270,12 +278,14 @@ DEPENDENCIES
   bootstrap-growl-rails
   bundler
   coffee-rails (~> 4.0.0)
+  declarative_authorization!
   devise!
   faye
   google-analytics-rails
   jbuilder (~> 2.0)
   jquery-datatables-rails!
   jquery-rails
+  jquery_context_menu-rails
   omniauth
   omniauth-facebook
   pg
@@ -293,4 +303,4 @@ DEPENDENCIES
   validates_formatting_of
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
