@@ -397,11 +397,6 @@ $(window).load(function(){
         });
     };
 
-    setTimeout(function () {
-        if (!$('.login-content')[0]) {
-            notify('Welcome back Mallinda Hollaway', 'inverse');
-        }
-    }, 1000)
 });
 $(document).ready(function(){
 
@@ -1171,7 +1166,7 @@ $(document).ready(function(){
     -----------------------------------------------------------*/
     if($('.chosen')[0]) {
         $('.chosen').chosen({
-            width: '100%',
+            width: '200px',
             allow_single_deselect: true
         });
     }

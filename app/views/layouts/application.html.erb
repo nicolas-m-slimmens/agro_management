@@ -2,14 +2,35 @@
 <html>
 <head>
   <title>Agro Management</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 <!-- Prelang: Analytics / Google Analytics -->
     <%= analytics_init if Rails.env.production? or Rails.env.development? %></head>
 <body>
+  <%= render partial: 'elements/navigation_bar' %>
 
-<%= yield %>
+  <% if defined?(Devise) && user_signed_in? %>
+    <section id="main">
+
+      <%= render partial: 'elements/menu_side_bar' %>
+
+      <%= yield %>
+
+    </section>
+
+    <footer id="footer">
+      Copyright &copy; 2016 Agro Management
+
+      <ul class="f-menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">Support</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </footer>
+  <% else %>
+    <%= yield %>
+  <% end %>
 
 </body>
 </html>

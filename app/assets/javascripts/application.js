@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require jquery/jquery
+//= require flot/jquery.flot
+//= require moment/moment
 //= require_tree .

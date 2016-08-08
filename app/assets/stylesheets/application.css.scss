@@ -1,0 +1,129 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+* or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* compiled file so the styles you add here take precedence over styles defined in any styles
+* defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+* file per style scope.
+*
+*= require_tree .
+*= stub active_admin
+
+*= require_self
+*/
+
+@media (max-width: 991px) {
+  .selected-field-info {
+    display: none;
+  }
+}
+.selected-field-info {
+  padding-top: 7px;
+}
+.field-info-label {
+  font-size: 15px;
+  color: #fff;
+  padding-left: 8px;
+}
+
+.btn-transparent {
+  color: #fff;
+  background: rgba(0, 0, 0, 0);
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 15px;
+  padding-left: 2px;
+}
+
+.chosen-container-single .chosen-single {
+  border-radius: 0;
+  overflow: visible;
+  height: 27px;
+  text-transform: none;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.chosen-container .chosen-drop {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 1px;
+  border: 0;
+  top: 0;
+  border-radius: 2px;
+  width: 200px !important;
+}
+
+.chosen-container-single .chosen-search {
+  padding: 5px 5px 5px 40px;
+  background: #F7F7F7;
+}
+
+.chosen-container-single .chosen-search input[type=text] {
+  border: 0;
+  height: 35px;
+  line-height: 1.42857143;
+  background-image: none !important;
+}
+
+.chosen-container .chosen-results {
+  margin: 0;
+  padding: 0;
+  max-height: 300px;
+}
+
+.chosen-container .chosen-results li {
+  padding: 10px 17px;
+  width: 100%;
+}
+
+.chosen-container .chosen-results li.highlighted {
+  background: rgba(0, 0, 0, 0.075);
+  color: #333;
+}
+
+.chosen-container .chosen-results li.result-selected {
+  background: transparent;
+  color: #5E5E5E;
+  position: relative;
+}
+
+.chosen-container .chosen-results li.result-selected:before {
+  content: "\f26b";
+  font-family: 'Material-Design-Iconic-Font';
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 19px;
+}
+
+.chosen-container-single .chosen-single div b {
+  display: none;
+}
+
+.chosen-container-single .chosen-single::before {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+.chosen-container-single .chosen-single span {
+  display: inline-block;
+}
+
+.field-info-link {
+  float: right;
+  text-decoration: none;
+}
+
+.field-info-link:hover {
+  color: inherit;
+}
